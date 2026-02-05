@@ -28,12 +28,12 @@ while True:
     elif choice==5:
         break
     else:
-        print("Invalid input! Please enter between 1 to 5.")
-    user_choice = input("Do you want to continue?(YES/NO):")
-    if user_choice=="Yes":
-        continue
-    else: 
-        break
+        print("Invalid choice!!Do you want to continue?")
+        if input("Enter y for yes and n for no:")=='y':
+            continue
+        else:
+            break
 
         
+
 
